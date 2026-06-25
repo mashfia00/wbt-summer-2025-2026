@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+ 
+<body>
+ 
+    <form method="post">
+ 
+        <h1>Registration</h1>
+        <p>Please complete all fields below.</p>
+        <hr>
+ 
+        <div class="field">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="Jane Doe">
+        </div>
+ 
+ 
+        <div class="field">
+            <label for="postal">Postal Code</label><br>
+            <input type="number" id="postal" placeholder="10001">
+        </div>
+ 
+ 
+        <div class="field">
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob">
+        </div>
+ 
+ 
+        <div class="field">
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" placeholder="jane@company.com">
+        </div>
+ 
+ 
+        <div class="field">
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="********">
+        </div>
+ 
+ 
+        <div class="dropdown">
+            <select id="country"> name="country">
+                <option>Select a country</option>
+                <option>Bangladesh</option>
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>Nepal</option>
+            </select>
+        </div>
+ 
+ 
+        <div class="button">
+            <button type="submit"class="btn-primary">Submit</button>
+            <button type="reset" class="btn secondary">Reset</button>
+        </div>
+ 
+    </form>
+ 
+</body>
+</html>
+ 
